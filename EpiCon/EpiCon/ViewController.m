@@ -95,8 +95,8 @@ int countdown = 10;
     [button addTarget:self
                action:@selector(month)
      forControlEvents:UIControlEventTouchUpInside];
-    [button setTitle:@"Show View" forState:UIControlStateNormal];
-    button.frame = CGRectMake(20, 60, 160.0, 40.0);
+    [button setTitle:@"Monthly Report" forState:UIControlStateNormal];
+    button.frame = CGRectMake(30, 70, 160.0, 40.0);
     [button setBackgroundColor:[UIColor blueColor]];
     [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [self.view addSubview:button];
@@ -106,7 +106,10 @@ int countdown = 10;
 
 - (void)month {
     UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Monthly Report.png"]];
+    imageView.contentMode = UIViewContentModeScaleAspectFit;
     [self.view addSubview:imageView];
+    imageView.frame = CGRectMake(20, 100, imageView.frame.size.height+130, imageView.frame.size.width+130);
+    graphView.hidden = YES;
 }
 
 - (void)didReceiveMemoryWarning {
