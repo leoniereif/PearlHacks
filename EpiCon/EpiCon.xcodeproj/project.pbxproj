@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		596B0E961CB17113000849B1 /* Monthly Report.png in Resources */ = {isa = PBXBuildFile; fileRef = 596B0E951CB17113000849B1 /* Monthly Report.png */; };
+		5998DED51CB08DFF00818D80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998DED41CB08DFF00818D80 /* main.m */; };
+		5998DED81CB08DFF00818D80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998DED71CB08DFF00818D80 /* AppDelegate.m */; };
+		5998DEDB1CB08DFF00818D80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998DEDA1CB08DFF00818D80 /* ViewController.m */; };
+		5998DEE11CB08DFF00818D80 /* EpiCon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5998DEDF1CB08DFF00818D80 /* EpiCon.xcdatamodeld */; };
+		5998DEE31CB08DFF00818D80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5998DEE21CB08DFF00818D80 /* Assets.xcassets */; };
+		5998DEE61CB08DFF00818D80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5998DEE41CB08DFF00818D80 /* LaunchScreen.storyboard */; };
+		5998DEF11CB08E0000818D80 /* EpiConTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998DEF01CB08E0000818D80 /* EpiConTests.m */; };
+		5998DEFC1CB08E0000818D80 /* EpiConUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998DEFB1CB08E0000818D80 /* EpiConUITests.m */; };
+		5998DF141CB09F1700818D80 /* MyoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5998DF131CB09F1700818D80 /* MyoKit.framework */; };
+		5998DF171CB0BD6100818D80 /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998DF161CB0BD6100818D80 /* GraphView.m */; };
+		5998DF191CB13B8F00818D80 /* Charts-master in Resources */ = {isa = PBXBuildFile; fileRef = 5998DF181CB13B8F00818D80 /* Charts-master */; };
+		5998DF1B1CB13C3100818D80 /* Charts in Frameworks */ = {isa = PBXBuildFile; fileRef = 5998DF1A1CB13C3100818D80 /* Charts */; };
+		5998DF201CB1676F00818D80 /* ConnectBackground2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5998DF1F1CB1676F00818D80 /* ConnectBackground2.png */; };
+		5998DF221CB1677500818D80 /* EpiConBackground2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5998DF211CB1677500818D80 /* EpiConBackground2.png */; };
+		5998DF241CB1678800818D80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5998DF231CB1678800818D80 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5998DEED1CB08E0000818D80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5998DEC81CB08DFF00818D80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5998DECF1CB08DFF00818D80;
+			remoteInfo = EpiCon;
+		};
+		5998DEF81CB08E0000818D80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5998DEC81CB08DFF00818D80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5998DECF1CB08DFF00818D80;
+			remoteInfo = EpiCon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		596B0E951CB17113000849B1 /* Monthly Report.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Monthly Report.png"; sourceTree = "<group>"; };
+		5998DED01CB08DFF00818D80 /* EpiCon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpiCon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5998DED41CB08DFF00818D80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5998DED61CB08DFF00818D80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5998DED71CB08DFF00818D80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5998DED91CB08DFF00818D80 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5998DEDA1CB08DFF00818D80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5998DEE01CB08DFF00818D80 /* EpiCon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EpiCon.xcdatamodel; sourceTree = "<group>"; };
+		5998DEE21CB08DFF00818D80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5998DEE51CB08DFF00818D80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5998DEE71CB08DFF00818D80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5998DEEC1CB08E0000818D80 /* EpiConTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EpiConTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5998DEF01CB08E0000818D80 /* EpiConTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EpiConTests.m; sourceTree = "<group>"; };
+		5998DEF21CB08E0000818D80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5998DEF71CB08E0000818D80 /* EpiConUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EpiConUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5998DEFB1CB08E0000818D80 /* EpiConUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EpiConUITests.m; sourceTree = "<group>"; };
+		5998DEFD1CB08E0000818D80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5998DF131CB09F1700818D80 /* MyoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MyoKit.framework; sourceTree = "<group>"; };
+		5998DF151CB0BD6100818D80 /* GraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraphView.h; path = "../../../../Downloads/Myo-iOS-SDK-0.5.2/HelloMyo/HelloMyo/GraphView.h"; sourceTree = "<group>"; };
+		5998DF161CB0BD6100818D80 /* GraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraphView.m; path = "../../../../Downloads/Myo-iOS-SDK-0.5.2/HelloMyo/HelloMyo/GraphView.m"; sourceTree = "<group>"; };
+		5998DF181CB13B8F00818D80 /* Charts-master */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Charts-master"; path = "../../../../Downloads/Charts-master"; sourceTree = "<group>"; };
+		5998DF1A1CB13C3100818D80 /* Charts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Charts; path = "EpiCon/Charts-master/Charts"; sourceTree = "<group>"; };
+		5998DF1F1CB1676F00818D80 /* ConnectBackground2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ConnectBackground2.png; sourceTree = "<group>"; };
+		5998DF211CB1677500818D80 /* EpiConBackground2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EpiConBackground2.png; sourceTree = "<group>"; };
+		5998DF231CB1678800818D80 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5998DECD1CB08DFF00818D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5998DF1B1CB13C3100818D80 /* Charts in Frameworks */,
+				5998DF141CB09F1700818D80 /* MyoKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5998DEE91CB08E0000818D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5998DEF41CB08E0000818D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5998DEC71CB08DFF00818D80 = {
+			isa = PBXGroup;
+			children = (
+				5998DF1A1CB13C3100818D80 /* Charts */,
+				5998DED21CB08DFF00818D80 /* EpiCon */,
+				5998DEEF1CB08E0000818D80 /* EpiConTests */,
+				5998DEFA1CB08E0000818D80 /* EpiConUITests */,
+				5998DED11CB08DFF00818D80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5998DED11CB08DFF00818D80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5998DED01CB08DFF00818D80 /* EpiCon.app */,
+				5998DEEC1CB08E0000818D80 /* EpiConTests.xctest */,
+				5998DEF71CB08E0000818D80 /* EpiConUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5998DED21CB08DFF00818D80 /* EpiCon */ = {
+			isa = PBXGroup;
+			children = (
+				5998DF181CB13B8F00818D80 /* Charts-master */,
+				5998DF151CB0BD6100818D80 /* GraphView.h */,
+				5998DF161CB0BD6100818D80 /* GraphView.m */,
+				5998DF131CB09F1700818D80 /* MyoKit.framework */,
+				5998DED61CB08DFF00818D80 /* AppDelegate.h */,
+				5998DED71CB08DFF00818D80 /* AppDelegate.m */,
+				5998DED91CB08DFF00818D80 /* ViewController.h */,
+				5998DEDA1CB08DFF00818D80 /* ViewController.m */,
+				5998DF211CB1677500818D80 /* EpiConBackground2.png */,
+				5998DF1F1CB1676F00818D80 /* ConnectBackground2.png */,
+				5998DF231CB1678800818D80 /* Main.storyboard */,
+				5998DEE21CB08DFF00818D80 /* Assets.xcassets */,
+				5998DEE41CB08DFF00818D80 /* LaunchScreen.storyboard */,
+				5998DEE71CB08DFF00818D80 /* Info.plist */,
+				596B0E951CB17113000849B1 /* Monthly Report.png */,
+				5998DEDF1CB08DFF00818D80 /* EpiCon.xcdatamodeld */,
+				5998DED31CB08DFF00818D80 /* Supporting Files */,
+			);
+			path = EpiCon;
+			sourceTree = "<group>";
+		};
+		5998DED31CB08DFF00818D80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5998DED41CB08DFF00818D80 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5998DEEF1CB08E0000818D80 /* EpiConTests */ = {
+			isa = PBXGroup;
+			children = (
+				5998DEF01CB08E0000818D80 /* EpiConTests.m */,
+				5998DEF21CB08E0000818D80 /* Info.plist */,
+			);
+			path = EpiConTests;
+			sourceTree = "<group>";
+		};
+		5998DEFA1CB08E0000818D80 /* EpiConUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5998DEFB1CB08E0000818D80 /* EpiConUITests.m */,
+				5998DEFD1CB08E0000818D80 /* Info.plist */,
+			);
+			path = EpiConUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5998DECF1CB08DFF00818D80 /* EpiCon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5998DF001CB08E0000818D80 /* Build configuration list for PBXNativeTarget "EpiCon" */;
+			buildPhases = (
+				5998DECC1CB08DFF00818D80 /* Sources */,
+				5998DECD1CB08DFF00818D80 /* Frameworks */,
+				5998DECE1CB08DFF00818D80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EpiCon;
+			productName = EpiCon;
+			productReference = 5998DED01CB08DFF00818D80 /* EpiCon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5998DEEB1CB08E0000818D80 /* EpiConTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5998DF031CB08E0000818D80 /* Build configuration list for PBXNativeTarget "EpiConTests" */;
+			buildPhases = (
+				5998DEE81CB08E0000818D80 /* Sources */,
+				5998DEE91CB08E0000818D80 /* Frameworks */,
+				5998DEEA1CB08E0000818D80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5998DEEE1CB08E0000818D80 /* PBXTargetDependency */,
+			);
+			name = EpiConTests;
+			productName = EpiConTests;
+			productReference = 5998DEEC1CB08E0000818D80 /* EpiConTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5998DEF61CB08E0000818D80 /* EpiConUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5998DF061CB08E0000818D80 /* Build configuration list for PBXNativeTarget "EpiConUITests" */;
+			buildPhases = (
+				5998DEF31CB08E0000818D80 /* Sources */,
+				5998DEF41CB08E0000818D80 /* Frameworks */,
+				5998DEF51CB08E0000818D80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5998DEF91CB08E0000818D80 /* PBXTargetDependency */,
+			);
+			name = EpiConUITests;
+			productName = EpiConUITests;
+			productReference = 5998DEF71CB08E0000818D80 /* EpiConUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5998DEC81CB08DFF00818D80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Leonie Reif";
+				TargetAttributes = {
+					5998DECF1CB08DFF00818D80 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = HE2N5A85DC;
+					};
+					5998DEEB1CB08E0000818D80 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = HE2N5A85DC;
+						TestTargetID = 5998DECF1CB08DFF00818D80;
+					};
+					5998DEF61CB08E0000818D80 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = HE2N5A85DC;
+						TestTargetID = 5998DECF1CB08DFF00818D80;
+					};
+				};
+			};
+			buildConfigurationList = 5998DECB1CB08DFF00818D80 /* Build configuration list for PBXProject "EpiCon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5998DEC71CB08DFF00818D80;
+			productRefGroup = 5998DED11CB08DFF00818D80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5998DECF1CB08DFF00818D80 /* EpiCon */,
+				5998DEEB1CB08E0000818D80 /* EpiConTests */,
+				5998DEF61CB08E0000818D80 /* EpiConUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5998DECE1CB08DFF00818D80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5998DF201CB1676F00818D80 /* ConnectBackground2.png in Resources */,
+				5998DF221CB1677500818D80 /* EpiConBackground2.png in Resources */,
+				5998DF241CB1678800818D80 /* Main.storyboard in Resources */,
+				596B0E961CB17113000849B1 /* Monthly Report.png in Resources */,
+				5998DEE61CB08DFF00818D80 /* LaunchScreen.storyboard in Resources */,
+				5998DEE31CB08DFF00818D80 /* Assets.xcassets in Resources */,
+				5998DF191CB13B8F00818D80 /* Charts-master in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5998DEEA1CB08E0000818D80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5998DEF51CB08E0000818D80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5998DECC1CB08DFF00818D80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5998DEDB1CB08DFF00818D80 /* ViewController.m in Sources */,
+				5998DF171CB0BD6100818D80 /* GraphView.m in Sources */,
+				5998DEE11CB08DFF00818D80 /* EpiCon.xcdatamodeld in Sources */,
+				5998DED81CB08DFF00818D80 /* AppDelegate.m in Sources */,
+				5998DED51CB08DFF00818D80 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5998DEE81CB08E0000818D80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5998DEF11CB08E0000818D80 /* EpiConTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5998DEF31CB08E0000818D80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5998DEFC1CB08E0000818D80 /* EpiConUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5998DEEE1CB08E0000818D80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5998DECF1CB08DFF00818D80 /* EpiCon */;
+			targetProxy = 5998DEED1CB08E0000818D80 /* PBXContainerItemProxy */;
+		};
+		5998DEF91CB08E0000818D80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5998DECF1CB08DFF00818D80 /* EpiCon */;
+			targetProxy = 5998DEF81CB08E0000818D80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5998DEE41CB08DFF00818D80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5998DEE51CB08DFF00818D80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5998DEFE1CB08E0000818D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5998DEFF1CB08E0000818D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5998DF011CB08E0000818D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EpiCon",
+				);
+				INFOPLIST_FILE = EpiCon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.EpiCon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5998DF021CB08E0000818D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EpiCon",
+				);
+				INFOPLIST_FILE = EpiCon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.EpiCon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5998DF041CB08E0000818D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EpiConTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.EpiConTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EpiCon.app/EpiCon";
+			};
+			name = Debug;
+		};
+		5998DF051CB08E0000818D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EpiConTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.EpiConTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EpiCon.app/EpiCon";
+			};
+			name = Release;
+		};
+		5998DF071CB08E0000818D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EpiConUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.EpiConUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EpiCon;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5998DF081CB08E0000818D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EpiConUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.EpiConUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EpiCon;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5998DECB1CB08DFF00818D80 /* Build configuration list for PBXProject "EpiCon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5998DEFE1CB08E0000818D80 /* Debug */,
+				5998DEFF1CB08E0000818D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5998DF001CB08E0000818D80 /* Build configuration list for PBXNativeTarget "EpiCon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5998DF011CB08E0000818D80 /* Debug */,
+				5998DF021CB08E0000818D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5998DF031CB08E0000818D80 /* Build configuration list for PBXNativeTarget "EpiConTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5998DF041CB08E0000818D80 /* Debug */,
+				5998DF051CB08E0000818D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5998DF061CB08E0000818D80 /* Build configuration list for PBXNativeTarget "EpiConUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5998DF071CB08E0000818D80 /* Debug */,
+				5998DF081CB08E0000818D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5998DEDF1CB08DFF00818D80 /* EpiCon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5998DEE01CB08DFF00818D80 /* EpiCon.xcdatamodel */,
+			);
+			currentVersion = 5998DEE01CB08DFF00818D80 /* EpiCon.xcdatamodel */;
+			path = EpiCon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5998DEC81CB08DFF00818D80 /* Project object */;
+}

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7CV-nI-QPy">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--SetupViewController-->
+        <scene sceneID="XmD-FB-rRQ">
+            <objects>
+                <viewController id="BEV-Wf-gEy" userLabel="SetupViewController" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zYd-EH-L0l"/>
+                        <viewControllerLayoutGuide type="bottom" id="pxz-oX-PGa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pYE-Qj-Nz9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ConnectBackground2.png" translatesAutoresizingMaskIntoConstraints="NO" id="RaS-5Y-ens">
+                                <rect key="frame" x="0.0" y="0.0" width="420" height="721"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6cV-QL-hrc">
+                                <rect key="frame" x="0.0" y="111" width="350" height="69"/>
+                                <color key="backgroundColor" red="0.30588235289999999" green="0.20000000000000001" blue="0.46666666670000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="350" id="9gK-LG-9vV"/>
+                                    <constraint firstAttribute="width" constant="400" id="JgA-w2-UY6"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="eWG-42-gY6"/>
+                                    <constraint firstAttribute="height" constant="69" id="hbv-4K-l52"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="contentEdgeInsets" minX="2" minY="1" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Connect Myo Band">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="JgA-w2-UY6"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="didTapConnect:" destination="BEV-Wf-gEy" eventType="touchUpInside" id="gr0-SX-UFk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6cV-QL-hrc" firstAttribute="leading" secondItem="pYE-Qj-Nz9" secondAttribute="leadingMargin" constant="100" id="58Q-i4-MYP"/>
+                            <constraint firstAttribute="bottom" secondItem="6cV-QL-hrc" secondAttribute="bottom" constant="246" id="Hmr-J2-wY9"/>
+                            <constraint firstItem="6cV-QL-hrc" firstAttribute="top" secondItem="zYd-EH-L0l" secondAttribute="bottom" constant="469" id="RL4-qW-jcw"/>
+                            <constraint firstItem="6cV-QL-hrc" firstAttribute="centerX" secondItem="pYE-Qj-Nz9" secondAttribute="centerX" id="m4l-2O-IBo"/>
+                            <constraint firstItem="6cV-QL-hrc" firstAttribute="leading" secondItem="pYE-Qj-Nz9" secondAttribute="leadingMargin" constant="11" id="wZ2-Ki-7x5"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="58Q-i4-MYP"/>
+                                <exclude reference="RL4-qW-jcw"/>
+                                <exclude reference="wZ2-Ki-7x5"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="i11-Eq-czq"/>
+                    <connections>
+                        <outlet property="connectButton" destination="6cV-QL-hrc" id="bxe-qG-b2K"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8RI-3N-K0J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="996" y="59"/>
+        </scene>
+        <!--WELCOME-->
+        <scene sceneID="xgn-gO-HDa">
+            <objects>
+                <viewController storyboardIdentifier="loginPage" id="2nT-4D-4jd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sFG-ID-Pbh"/>
+                        <viewControllerLayoutGuide type="bottom" id="mlZ-br-pYX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="G16-Gf-UAq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EpiConBackground2.png" translatesAutoresizingMaskIntoConstraints="NO" id="rFq-eD-K36">
+                                <rect key="frame" x="0.0" y="-15" width="406" height="691"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ku2-er-F2Y">
+                                <rect key="frame" x="32" y="409" width="312" height="47"/>
+                                <color key="backgroundColor" red="0.30588235289999999" green="0.20000000000000001" blue="0.46666666670000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="contentEdgeInsets" minX="2" minY="1" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Log In">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BEV-Wf-gEy" kind="show" id="gQN-8u-RQD"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="EpiCon" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWd-Sy-ouM">
+                                <rect key="frame" x="274" y="9" width="147" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="  Username" borderStyle="line" placeholder="Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DI9-sT-nuo">
+                                <rect key="frame" x="32" y="322" width="312" height="40"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.49325098167539272" green="0.49325098167539272" blue="0.49325098167539272" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="  Password" borderStyle="line" placeholder="Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jt1-yk-nfn">
+                                <rect key="frame" x="32" y="361" width="312" height="40"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.49325098169999998" green="0.49325098169999998" blue="0.49325098169999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="WELCOME" id="Fut-2Y-rKD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hwc-Pu-gY6" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="281" y="112"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="VGX-v6-KWG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7CV-nI-QPy" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6qN-Os-UMd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2nT-4D-4jd" kind="relationship" relationship="rootViewController" id="Qnz-jo-Twv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tNH-hm-lgV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-531" y="112"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ConnectBackground2.png" width="1781" height="3168"/>
+        <image name="EpiConBackground2.png" width="1574" height="2800"/>
+    </resources>
+</document>
